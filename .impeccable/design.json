@@ -1,0 +1,592 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T00:49:25.338900+00:00",
+  "title": "Design System: EMeta",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Quiet Ground",
+        "tonalRamp": [
+          "oklch(15% 0.00283 128.49)",
+          "oklch(26.43% 0.00283 128.49)",
+          "oklch(37.86% 0.00283 128.49)",
+          "oklch(49.29% 0.00283 128.49)",
+          "oklch(60.71% 0.00283 128.49)",
+          "oklch(72.14% 0.00283 128.49)",
+          "oklch(83.57% 0.00283 128.49)",
+          "oklch(95% 0.00283 128.49)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Working Surface",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "layer": {
+        "role": "neutral",
+        "displayName": "Inset Layer",
+        "tonalRamp": [
+          "oklch(15% 0.00617 137.77)",
+          "oklch(26.43% 0.00617 137.77)",
+          "oklch(37.86% 0.00617 137.77)",
+          "oklch(49.29% 0.00617 137.77)",
+          "oklch(60.71% 0.00617 137.77)",
+          "oklch(72.14% 0.00617 137.77)",
+          "oklch(83.57% 0.00617 137.77)",
+          "oklch(95% 0.00617 137.77)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "tonalRamp": [
+          "oklch(15% 0.01031 145.49)",
+          "oklch(26.43% 0.01031 145.49)",
+          "oklch(37.86% 0.01031 145.49)",
+          "oklch(49.29% 0.01031 145.49)",
+          "oklch(60.71% 0.01031 145.49)",
+          "oklch(72.14% 0.01031 145.49)",
+          "oklch(83.57% 0.01031 145.49)",
+          "oklch(95% 0.01031 145.49)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Reading Ink",
+        "tonalRamp": [
+          "oklch(15% 0.01338 163.82)",
+          "oklch(26.43% 0.01338 163.82)",
+          "oklch(37.86% 0.01338 163.82)",
+          "oklch(49.29% 0.01338 163.82)",
+          "oklch(60.71% 0.01338 163.82)",
+          "oklch(72.14% 0.01338 163.82)",
+          "oklch(83.57% 0.01338 163.82)",
+          "oklch(95% 0.01338 163.82)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Supporting Ink",
+        "tonalRamp": [
+          "oklch(15% 0.02029 158.58)",
+          "oklch(26.43% 0.02029 158.58)",
+          "oklch(37.86% 0.02029 158.58)",
+          "oklch(49.29% 0.02029 158.58)",
+          "oklch(60.71% 0.02029 158.58)",
+          "oklch(72.14% 0.02029 158.58)",
+          "oklch(83.57% 0.02029 158.58)",
+          "oklch(95% 0.02029 158.58)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Forest Action",
+        "tonalRamp": [
+          "oklch(15% 0.07721 165.32)",
+          "oklch(26.43% 0.07721 165.32)",
+          "oklch(37.86% 0.07721 165.32)",
+          "oklch(49.29% 0.07721 165.32)",
+          "oklch(60.71% 0.07721 165.32)",
+          "oklch(72.14% 0.07721 165.32)",
+          "oklch(83.57% 0.07721 165.32)",
+          "oklch(95% 0.07721 165.32)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Forest Hover",
+        "tonalRamp": [
+          "oklch(15% 0.06353 166.84)",
+          "oklch(26.43% 0.06353 166.84)",
+          "oklch(37.86% 0.06353 166.84)",
+          "oklch(49.29% 0.06353 166.84)",
+          "oklch(60.71% 0.06353 166.84)",
+          "oklch(72.14% 0.06353 166.84)",
+          "oklch(83.57% 0.06353 166.84)",
+          "oklch(95% 0.06353 166.84)"
+        ]
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Soft Forest",
+        "tonalRamp": [
+          "oklch(15% 0.01160 162.05)",
+          "oklch(26.43% 0.01160 162.05)",
+          "oklch(37.86% 0.01160 162.05)",
+          "oklch(49.29% 0.01160 162.05)",
+          "oklch(60.71% 0.01160 162.05)",
+          "oklch(72.14% 0.01160 162.05)",
+          "oklch(83.57% 0.01160 162.05)",
+          "oklch(95% 0.01160 162.05)"
+        ]
+      },
+      "warning": {
+        "role": "secondary",
+        "displayName": "Exposure Amber",
+        "tonalRamp": [
+          "oklch(15% 0.09963 63.17)",
+          "oklch(26.43% 0.09963 63.17)",
+          "oklch(37.86% 0.09963 63.17)",
+          "oklch(49.29% 0.09963 63.17)",
+          "oklch(60.71% 0.09963 63.17)",
+          "oklch(72.14% 0.09963 63.17)",
+          "oklch(83.57% 0.09963 63.17)",
+          "oklch(95% 0.09963 63.17)"
+        ]
+      },
+      "warning-bg": {
+        "role": "secondary",
+        "displayName": "Amber Surface",
+        "tonalRamp": [
+          "oklch(15% 0.02252 78.22)",
+          "oklch(26.43% 0.02252 78.22)",
+          "oklch(37.86% 0.02252 78.22)",
+          "oklch(49.29% 0.02252 78.22)",
+          "oklch(60.71% 0.02252 78.22)",
+          "oklch(72.14% 0.02252 78.22)",
+          "oklch(83.57% 0.02252 78.22)",
+          "oklch(95% 0.02252 78.22)"
+        ]
+      },
+      "error": {
+        "role": "secondary",
+        "displayName": "Refusal Red",
+        "tonalRamp": [
+          "oklch(15% 0.14963 26.56)",
+          "oklch(26.43% 0.14963 26.56)",
+          "oklch(37.86% 0.14963 26.56)",
+          "oklch(49.29% 0.14963 26.56)",
+          "oklch(60.71% 0.14963 26.56)",
+          "oklch(72.14% 0.14963 26.56)",
+          "oklch(83.57% 0.14963 26.56)",
+          "oklch(95% 0.14963 26.56)"
+        ]
+      },
+      "error-bg": {
+        "role": "secondary",
+        "displayName": "Red Surface",
+        "tonalRamp": [
+          "oklch(15% 0.01678 31.08)",
+          "oklch(26.43% 0.01678 31.08)",
+          "oklch(37.86% 0.01678 31.08)",
+          "oklch(49.29% 0.01678 31.08)",
+          "oklch(60.71% 0.01678 31.08)",
+          "oklch(72.14% 0.01678 31.08)",
+          "oklch(83.57% 0.01678 31.08)",
+          "oklch(95% 0.01678 31.08)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus Green",
+        "tonalRamp": [
+          "oklch(15% 0.09517 160.50)",
+          "oklch(26.43% 0.09517 160.50)",
+          "oklch(37.86% 0.09517 160.50)",
+          "oklch(49.29% 0.09517 160.50)",
+          "oklch(60.71% 0.09517 160.50)",
+          "oklch(72.14% 0.09517 160.50)",
+          "oklch(83.57% 0.09517 160.50)",
+          "oklch(95% 0.09517 160.50)"
+        ]
+      },
+      "drop-line": {
+        "role": "neutral",
+        "displayName": "Drop Boundary",
+        "tonalRamp": [
+          "oklch(15% 0.02458 153.31)",
+          "oklch(26.43% 0.02458 153.31)",
+          "oklch(37.86% 0.02458 153.31)",
+          "oklch(49.29% 0.02458 153.31)",
+          "oklch(60.71% 0.02458 153.31)",
+          "oklch(72.14% 0.02458 153.31)",
+          "oklch(83.57% 0.02458 153.31)",
+          "oklch(95% 0.02458 153.31)"
+        ]
+      },
+      "dark-bg": {
+        "role": "neutral",
+        "displayName": "Dark Quiet Ground",
+        "tonalRamp": [
+          "oklch(15% 0.01071 163.76)",
+          "oklch(26.43% 0.01071 163.76)",
+          "oklch(37.86% 0.01071 163.76)",
+          "oklch(49.29% 0.01071 163.76)",
+          "oklch(60.71% 0.01071 163.76)",
+          "oklch(72.14% 0.01071 163.76)",
+          "oklch(83.57% 0.01071 163.76)",
+          "oklch(95% 0.01071 163.76)"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "Dark Working Surface",
+        "tonalRamp": [
+          "oklch(15% 0.01375 163.59)",
+          "oklch(26.43% 0.01375 163.59)",
+          "oklch(37.86% 0.01375 163.59)",
+          "oklch(49.29% 0.01375 163.59)",
+          "oklch(60.71% 0.01375 163.59)",
+          "oklch(72.14% 0.01375 163.59)",
+          "oklch(83.57% 0.01375 163.59)",
+          "oklch(95% 0.01375 163.59)"
+        ]
+      },
+      "dark-layer": {
+        "role": "neutral",
+        "displayName": "Dark Inset Layer",
+        "tonalRamp": [
+          "oklch(15% 0.01980 156.98)",
+          "oklch(26.43% 0.01980 156.98)",
+          "oklch(37.86% 0.01980 156.98)",
+          "oklch(49.29% 0.01980 156.98)",
+          "oklch(60.71% 0.01980 156.98)",
+          "oklch(72.14% 0.01980 156.98)",
+          "oklch(83.57% 0.01980 156.98)",
+          "oklch(95% 0.01980 156.98)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Dark Hairline",
+        "tonalRamp": [
+          "oklch(15% 0.02473 154.02)",
+          "oklch(26.43% 0.02473 154.02)",
+          "oklch(37.86% 0.02473 154.02)",
+          "oklch(49.29% 0.02473 154.02)",
+          "oklch(60.71% 0.02473 154.02)",
+          "oklch(72.14% 0.02473 154.02)",
+          "oklch(83.57% 0.02473 154.02)",
+          "oklch(95% 0.02473 154.02)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Reading Ink",
+        "tonalRamp": [
+          "oklch(15% 0.00921 150.69)",
+          "oklch(26.43% 0.00921 150.69)",
+          "oklch(37.86% 0.00921 150.69)",
+          "oklch(49.29% 0.00921 150.69)",
+          "oklch(60.71% 0.00921 150.69)",
+          "oklch(72.14% 0.00921 150.69)",
+          "oklch(83.57% 0.00921 150.69)",
+          "oklch(95% 0.00921 150.69)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Supporting Ink",
+        "tonalRamp": [
+          "oklch(15% 0.02012 152.71)",
+          "oklch(26.43% 0.02012 152.71)",
+          "oklch(37.86% 0.02012 152.71)",
+          "oklch(49.29% 0.02012 152.71)",
+          "oklch(60.71% 0.02012 152.71)",
+          "oklch(72.14% 0.02012 152.71)",
+          "oklch(83.57% 0.02012 152.71)",
+          "oklch(95% 0.02012 152.71)"
+        ]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Dark Forest Action",
+        "tonalRamp": [
+          "oklch(15% 0.07481 160.05)",
+          "oklch(26.43% 0.07481 160.05)",
+          "oklch(37.86% 0.07481 160.05)",
+          "oklch(49.29% 0.07481 160.05)",
+          "oklch(60.71% 0.07481 160.05)",
+          "oklch(72.14% 0.07481 160.05)",
+          "oklch(83.57% 0.07481 160.05)",
+          "oklch(95% 0.07481 160.05)"
+        ]
+      },
+      "dark-accent-hover": {
+        "role": "primary",
+        "displayName": "Dark Forest Hover",
+        "tonalRamp": [
+          "oklch(15% 0.05966 160.11)",
+          "oklch(26.43% 0.05966 160.11)",
+          "oklch(37.86% 0.05966 160.11)",
+          "oklch(49.29% 0.05966 160.11)",
+          "oklch(60.71% 0.05966 160.11)",
+          "oklch(72.14% 0.05966 160.11)",
+          "oklch(83.57% 0.05966 160.11)",
+          "oklch(95% 0.05966 160.11)"
+        ]
+      },
+      "dark-accent-soft": {
+        "role": "primary",
+        "displayName": "Dark Soft Forest",
+        "tonalRamp": [
+          "oklch(15% 0.03511 159.87)",
+          "oklch(26.43% 0.03511 159.87)",
+          "oklch(37.86% 0.03511 159.87)",
+          "oklch(49.29% 0.03511 159.87)",
+          "oklch(60.71% 0.03511 159.87)",
+          "oklch(72.14% 0.03511 159.87)",
+          "oklch(83.57% 0.03511 159.87)",
+          "oklch(95% 0.03511 159.87)"
+        ]
+      },
+      "dark-warning": {
+        "role": "secondary",
+        "displayName": "Dark Exposure Amber",
+        "tonalRamp": [
+          "oklch(15% 0.08761 71.79)",
+          "oklch(26.43% 0.08761 71.79)",
+          "oklch(37.86% 0.08761 71.79)",
+          "oklch(49.29% 0.08761 71.79)",
+          "oklch(60.71% 0.08761 71.79)",
+          "oklch(72.14% 0.08761 71.79)",
+          "oklch(83.57% 0.08761 71.79)",
+          "oklch(95% 0.08761 71.79)"
+        ]
+      },
+      "dark-warning-bg": {
+        "role": "secondary",
+        "displayName": "Dark Amber Surface",
+        "tonalRamp": [
+          "oklch(15% 0.02457 74.54)",
+          "oklch(26.43% 0.02457 74.54)",
+          "oklch(37.86% 0.02457 74.54)",
+          "oklch(49.29% 0.02457 74.54)",
+          "oklch(60.71% 0.02457 74.54)",
+          "oklch(72.14% 0.02457 74.54)",
+          "oklch(83.57% 0.02457 74.54)",
+          "oklch(95% 0.02457 74.54)"
+        ]
+      },
+      "dark-error": {
+        "role": "secondary",
+        "displayName": "Dark Refusal Red",
+        "tonalRamp": [
+          "oklch(15% 0.08957 28.41)",
+          "oklch(26.43% 0.08957 28.41)",
+          "oklch(37.86% 0.08957 28.41)",
+          "oklch(49.29% 0.08957 28.41)",
+          "oklch(60.71% 0.08957 28.41)",
+          "oklch(72.14% 0.08957 28.41)",
+          "oklch(83.57% 0.08957 28.41)",
+          "oklch(95% 0.08957 28.41)"
+        ]
+      },
+      "dark-error-bg": {
+        "role": "secondary",
+        "displayName": "Dark Red Surface",
+        "tonalRamp": [
+          "oklch(15% 0.03173 31.68)",
+          "oklch(26.43% 0.03173 31.68)",
+          "oklch(37.86% 0.03173 31.68)",
+          "oklch(49.29% 0.03173 31.68)",
+          "oklch(60.71% 0.03173 31.68)",
+          "oklch(72.14% 0.03173 31.68)",
+          "oklch(83.57% 0.03173 31.68)",
+          "oklch(95% 0.03173 31.68)"
+        ]
+      },
+      "dark-focus": {
+        "role": "primary",
+        "displayName": "Dark Focus Green",
+        "tonalRamp": [
+          "oklch(15% 0.06740 160.10)",
+          "oklch(26.43% 0.06740 160.10)",
+          "oklch(37.86% 0.06740 160.10)",
+          "oklch(49.29% 0.06740 160.10)",
+          "oklch(60.71% 0.06740 160.10)",
+          "oklch(72.14% 0.06740 160.10)",
+          "oklch(83.57% 0.06740 160.10)",
+          "oklch(95% 0.06740 160.10)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Task Heading",
+        "purpose": "Main task title; 25px at mobile sizes."
+      },
+      "title": {
+        "displayName": "Section Title",
+        "purpose": "Inspection and removal sections."
+      },
+      "body": {
+        "displayName": "Interface Body",
+        "purpose": "Primary interface prose."
+      },
+      "label": {
+        "displayName": "Compact Label",
+        "purpose": "File rows, removal choices and helper actions."
+      },
+      "tag": {
+        "displayName": "Container Tag",
+        "purpose": "Passive metadata-family labels."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-transform",
+        "value": "140ms cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Button transform transition; fine-pointer press scales to 0.98."
+      },
+      {
+        "name": "control-background",
+        "value": "140ms ease",
+        "purpose": "Primary and secondary button background transition."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0s",
+        "purpose": "All transition durations become zero under prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "850px"
+      },
+      {
+        "name": "mobile",
+        "value": "640px"
+      },
+      {
+        "name": "narrow-mobile",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The explicit selection or cleaning action.",
+      "html": "<button class=\"ds-primary\">Clean image</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 14px;min-height:40px;border:1px solid transparent;border-radius:7px;font:550 14px/1.3 -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;transition:transform 140ms cubic-bezier(0.23,1,0.32,1),background-color 140ms ease;background:var(--accent,#22634b);color:var(--surface,#ffffff);}.ds-primary:focus-visible{outline:2px solid var(--focus,#257451);outline-offset:3px;}.ds-primary:disabled{cursor:not-allowed;opacity:.48}@media(hover:hover) and (pointer:fine){.ds-primary:not(:disabled):hover{background:var(--accent-hover,#194d3b)}.ds-primary:not(:disabled):active{transform:scale(.98)}}@media(prefers-reduced-motion:reduce){.ds-primary{transition-duration:0s}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Supporting file and download actions.",
+      "html": "<button class=\"ds-secondary\">Download copy</button>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 14px;min-height:40px;border:1px solid transparent;border-radius:7px;font:550 14px/1.3 -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;transition:transform 140ms cubic-bezier(0.23,1,0.32,1),background-color 140ms ease;background:var(--surface,#ffffff);color:var(--ink,#232b27);border-color:var(--line,#dce2dc);}.ds-secondary:focus-visible{outline:2px solid var(--focus,#257451);outline-offset:3px;}.ds-secondary:disabled{cursor:not-allowed;opacity:.48}@media(hover:hover) and (pointer:fine){.ds-secondary:not(:disabled):hover{background:var(--layer,#f0f3ef)}.ds-secondary:not(:disabled):active{transform:scale(.98)}}@media(prefers-reduced-motion:reduce){.ds-secondary{transition-duration:0s}}"
+    },
+    {
+      "name": "Text Button",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Underlined selection helper without a filled surface.",
+      "html": "<button class=\"ds-text\">Select all safe metadata</button>",
+      "css": ".ds-text{padding:4px 0;color:var(--accent,#22634b);background:none;border:0;text-align:left;font:550 12px/1.5 -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;text-decoration:underline;text-underline-offset:3px;cursor:pointer}.ds-text:focus-visible{outline:2px solid var(--focus,#257451);outline-offset:3px;}.ds-text:disabled{cursor:not-allowed;opacity:.48}@media(hover:hover) and (pointer:fine){.ds-text:not(:disabled):active{transform:scale(.98)}}"
+    },
+    {
+      "name": "Metadata Search",
+      "kind": "input",
+      "refersTo": "search",
+      "description": "Labeled metadata filtering field with an inline stroke icon.",
+      "html": "<label class=\"ds-search\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input aria-label=\"Filter metadata\" type=\"search\" placeholder=\"Find a field or value…\"/></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:8px;color:var(--muted,#59665e);border:1px solid var(--line,#dce2dc);background:var(--surface,#ffffff);border-radius:6px;padding:8px 10px;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif}.ds-search input{min-width:0;width:100%;border:0;color:var(--ink,#232b27);background:transparent;font:400 12px/1.5 -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;caret-color:var(--accent,#22634b)}.ds-search input::placeholder{color:var(--muted,#59665e)}.ds-search input:focus-visible{outline:2px solid var(--focus,#257451);outline-offset:5px}"
+    },
+    {
+      "name": "Theme Select",
+      "kind": "input",
+      "refersTo": "theme-select",
+      "description": "Native system/light/dark preference control.",
+      "html": "<select class=\"ds-theme\" aria-label=\"Theme\"><option>System</option><option>Light</option><option>Dark</option></select>",
+      "css": ".ds-theme{color:var(--ink,#232b27);background:var(--surface,#ffffff);border:1px solid var(--line,#dce2dc);padding:6px;border-radius:6px;min-height:34px;font:400 14px/1.5 -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;cursor:pointer}.ds-theme:focus-visible{outline:2px solid var(--focus,#257451);outline-offset:3px;}"
+    },
+    {
+      "name": "File Navigation",
+      "kind": "nav",
+      "refersTo": "file-row-selected",
+      "description": "The selected image remains explicit in the session rail.",
+      "html": "<aside class=\"ds-rail\" aria-label=\"Images in this session\"><button class=\"ds-file\" aria-current=\"true\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z\"/><path d=\"M14 2v6h6\"/><circle cx=\"10\" cy=\"12\" r=\"2\"/><path d=\"m20 17-4-4-10 9\"/></svg><span><strong>privacy-sample.jpg</strong><small>Ready to inspect</small></span></button></aside>",
+      "css": ".ds-rail{background:var(--layer,#f0f3ef);padding:12px 8px;border:1px solid var(--line,#dce2dc);border-radius:12px;width:230px}.ds-file{display:flex;align-items:center;gap:10px;width:100%;text-align:left;padding:11px 8px;background:transparent;border:0;border-radius:6px;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#232b27);cursor:pointer}.ds-file[aria-current=\"true\"]{color:var(--accent,#22634b);background:var(--accent-soft,#eaf3ee)}.ds-file strong{display:block;font-size:12px;font-weight:550;line-height:1.5}.ds-file small{display:block;font-size:11px;line-height:1.5;margin-top:2px;color:var(--muted,#59665e)}.ds-file:focus-visible{outline:2px solid var(--focus,#257451);outline-offset:3px;}@media(hover:hover) and (pointer:fine){.ds-file:not([aria-current=\"true\"]):hover{background:var(--surface,#ffffff)}.ds-file:active{transform:scale(.98)}}"
+    },
+    {
+      "name": "Metadata Family Tag",
+      "kind": "chip",
+      "refersTo": "container-tag",
+      "description": "A passive container label, not an interactive filter.",
+      "html": "<span class=\"ds-tag\">EXIF</span>",
+      "css": ".ds-tag{display:inline-block;font:600 10px/1.5 -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;padding:2px 6px;background:var(--layer,#f0f3ef);color:var(--ink,#232b27);border-radius:4px}"
+    },
+    {
+      "name": "Drop Target",
+      "kind": "card",
+      "refersTo": "dropzone",
+      "description": "The empty-state file target; the visible button is the keyboard entry.",
+      "html": "<section class=\"ds-drop\"><h2>See what your images reveal</h2><p>Drop your images here to inspect location, camera details and other embedded information.</p><button class=\"ds-drop-button\">Choose images</button><p class=\"ds-formats\">JPEG, PNG, WebP · TIFF inspection only</p></section>",
+      "css": ".ds-drop{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-height:290px;padding:36px 24px;border:1px dashed #a3b3a7;background:var(--surface,#ffffff);color:var(--ink,#232b27);border-radius:12px;gap:16px;font:400 14px/1.5 -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif}.ds-drop h2{font-size:20px;font-weight:620;line-height:1.4;letter-spacing:-.015em;margin:0 0 7px}.ds-drop p{margin:0;color:var(--muted,#59665e);max-width:50ch}.ds-drop .ds-formats{font-size:12px}.ds-drop.ds-dragging{background:var(--accent-soft,#eaf3ee);border-color:var(--accent,#22634b)}.ds-drop-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 14px;min-height:40px;border:1px solid transparent;border-radius:7px;font:550 14px/1.3 -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;transition:transform 140ms cubic-bezier(0.23,1,0.32,1),background-color 140ms ease;background:var(--accent,#22634b);color:var(--surface,#ffffff);}.ds-drop-button:focus-visible{outline:2px solid var(--focus,#257451);outline-offset:3px;}.ds-drop-button:disabled{cursor:not-allowed;opacity:.48}@media(hover:hover) and (pointer:fine){.ds-drop-button:not(:disabled):hover{background:var(--accent-hover,#194d3b)}.ds-drop-button:not(:disabled):active{transform:scale(.98)}}@media(prefers-reduced-motion:reduce){.ds-drop-button{transition-duration:0s}}"
+    },
+    {
+      "name": "Original / Cleaned Switch",
+      "kind": "custom",
+      "refersTo": "version-switch",
+      "description": "Two pressed-state buttons compare inspection of the same file.",
+      "html": "<div class=\"ds-switch\" role=\"group\" aria-label=\"Compare metadata\"><button aria-pressed=\"false\">Original</button><button aria-pressed=\"true\">Cleaned</button></div>",
+      "css": ".ds-switch{display:inline-flex;padding:3px;background:var(--layer,#f0f3ef);border-radius:7px}.ds-switch button{padding:5px 10px;font:400 12px/1.5 -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;border:0;border-radius:4px;color:var(--muted,#59665e);background:transparent;cursor:pointer}.ds-switch button[aria-pressed=\"true\"]{background:var(--surface,#ffffff);color:var(--ink,#232b27)}.ds-switch button:focus-visible{outline:2px solid var(--focus,#257451);outline-offset:3px;}@media(hover:hover) and (pointer:fine){.ds-switch button:active{transform:scale(.98)}}"
+    },
+    {
+      "name": "Verified Result",
+      "kind": "custom",
+      "refersTo": "verification",
+      "description": "Explicit reopening/verification feedback with a separate output action.",
+      "html": "<div class=\"ds-verified\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M20 13c0 5-8 9-8 9s-8-4-8-9V5l8-3 8 3Z\"/><path d=\"m9 12 2 2 4-4\"/></svg><div><strong>Cleaned copy verified</strong><p>3 selected containers removed · Required rotation retained</p><p>Metadata containers: 4 before → 1 after.</p></div><button class=\"ds-download\">Download copy</button></div>",
+      "css": ".ds-verified{display:flex;align-items:flex-start;gap:10px;padding:16px;background:var(--accent-soft,#eaf3ee);color:var(--accent,#22634b);border-radius:6px;font:400 14px/1.5 -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;flex-wrap:wrap}.ds-verified>svg{flex-shrink:0;margin-top:2px}.ds-verified>div{flex:1}.ds-verified strong{font-size:13px;font-weight:700}.ds-verified p{font-size:11px;margin:3px 0 0}.ds-download{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 14px;min-height:40px;border:1px solid transparent;border-radius:7px;font:550 14px/1.3 -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;transition:transform 140ms cubic-bezier(0.23,1,0.32,1),background-color 140ms ease;background:var(--surface,#ffffff);color:var(--ink,#232b27);border-color:var(--line,#dce2dc);}.ds-download:focus-visible{outline:2px solid var(--focus,#257451);outline-offset:3px;}.ds-download:disabled{cursor:not-allowed;opacity:.48}@media(hover:hover) and (pointer:fine){.ds-download:not(:disabled):hover{background:var(--layer,#f0f3ef)}.ds-download:not(:disabled):active{transform:scale(.98)}}@media(prefers-reduced-motion:reduce){.ds-download{transition-duration:0s}}.ds-download{min-height:34px;padding:7px 10px;font-size:12px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Metadata workspace",
+    "overview": "The workspace makes the hidden contents of an image legible and keeps the next action explicit. The user-pinned Emil Kowalski + Impeccable direction lands as a compact English utility: warm green-gray neutrals, a restrained forest-green action and native controls. The working file and its information supply the visual interest.\n\nThe system uses plain hierarchy, hairline separators and tonal state changes. Light and dark modes preserve the same semantic roles. Local system typography supports the product's no-remote-font commitment. Motion is limited to brief control feedback; there are no entrance animations.",
+    "keyCharacteristics": [
+      "Compact type and readable metadata rows.",
+      "Green actions and selected states; amber exposure cues.",
+      "Flat surfaces separated by tone and hairlines.",
+      "Explicit original/cleaned comparison and verified downloads.",
+      "Native controls, visible keyboard focus and stacked mobile flow."
+    ],
+    "rules": [
+      {
+        "name": "The Semantic State Rule",
+        "body": "Use green for actions, selection and verified results, amber for exposure or limits, and red for processing errors; retain a textual state cue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Data Legibility Rule",
+        "body": "Preserve tabular numerals and wrapping for technical values; truncate only compact rail filenames, while the selected file heading wraps.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Separate working areas with tone and hairlines; express selection through semantic fills rather than added shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use semantic theme properties so light and dark surfaces preserve the same roles.",
+      "**Do** keep technical values readable with tabular numerals, wrapping and plain field labels.",
+      "**Do** pair sensitive, error and verified colors with explicit text.",
+      "**Do** retain native controls, accessible labels, visible focus and reduced-motion behavior.",
+      "**Do** keep cleaning rules beside their action and expose the removal link near the loaded privacy summary."
+    ],
+    "donts": [
+      "**Don't** replace the compact workspace with promotional heroes or decorative dashboard cards.",
+      "**Don't** add decorative shadows, gradients, remote fonts or entrance animations to this settled utility direction.",
+      "**Don't** turn test fixture imagery into a recurring UI illustration or claim it is a shipping brand asset.",
+      "**Don't** use color alone to claim metadata has been removed; preserve explicit verification and original/cleaned inspection."
+    ]
+  }
+}

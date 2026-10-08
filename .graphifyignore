@@ -1,0 +1,10 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.impeccable/
+.codex/
+graphify-out/
+tests/fixtures/
+
+public/licenses/
